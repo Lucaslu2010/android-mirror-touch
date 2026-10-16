@@ -1,5 +1,7 @@
 # Android Mirror/Touch
 
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 Mirror an Android device on a Mac and control it with a keyboard and mouse through a virtual USB touchscreen.
 
 Android Mirror/Touch combines a native SwiftUI viewer, screen and audio streaming, editable key mappings, and Android Open Accessory (AOA) 2.0 HID input. The phone runs the application; the Mac provides the display and controls. Android root access and a separately installed companion APK are not required.
@@ -143,6 +145,28 @@ ANDROID_MIRROR_TOUCH_TRACE=1 swift run AndroidMirror
 ```
 
 See the original [AOA design notes](docs/android-aoa-hid-touch-plan.md) for the investigation and [problem notes](problems.md) for debugging history. The current source is authoritative where those earlier notes describe an older report format.
+
+## License
+
+Copyright © 2026 Lucaslu2010, for original contributions.
+
+Except for third-party material and files with a separate license notice, the
+original project source code and documentation are licensed under
+[Creative Commons Attribution-NonCommercial 4.0 International
+(CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
+See [LICENSE](LICENSE) for the full legal text.
+
+You may share and adapt the covered material for noncommercial purposes, provided
+you give appropriate credit, link to the license, and indicate changes. Commercial
+uses requiring permission under copyright are not granted by this license; seek
+separate permission from the relevant rights holder. The full license, including
+its exceptions and limitations, governs.
+
+Third-party code, assets, and dependencies retain their own licenses. This notice
+does not replace those licenses or restrict rights they independently grant.
+
+External components such as scrcpy and libusb remain subject to their respective
+licenses; they are not relicensed by this repository.
 
 ## Acknowledgments
 
